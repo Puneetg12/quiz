@@ -1,0 +1,44 @@
+.question p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.question ol{
+    font-size: 16px ;
+    font-weight: 600;
+}
+
+.card-body{
+    /* ['D4546A', 'ECA82D','319CA6','2F6DAE'] */
+    /* background-color: #2F6DAE; */
+    height: 200px;
+    cursor: pointer;
+    display: table;
+    text-align: center;
+}
+.optiontext{
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#timer{
+    float: right;
+    height: auto;
+    width: auto;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: honeydew;
+    background-color: green;
+    text-align: center;
+    font-size: 22px;
+    animation: none;
+}
+
+
+@keyframes blinker{
+    50% {
+        opacity: 0;
+    }
